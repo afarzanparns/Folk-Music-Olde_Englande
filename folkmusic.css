@@ -15,8 +15,9 @@ body {
 nav {
     width: 490px;
     height: 36px;
-/*     background-color: greenyellow; */
-    text-size-adjust: 23pt;
+    font-size: 30pt;
+/*     background-color: greenyellow;
+    text-size-adjust: 23pt; */
     /* padding: red 26px solid;
     border: blue 8px solid;
     margin: green 20px solid; */
