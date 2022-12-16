@@ -6,44 +6,48 @@
 
 body {
     width: 612px;
-    padding: red 6px solid;
+    /* padding: red 6px solid;
     border: blue 8px solid;
-    margin: green 10px solid;
+    margin: green 10px solid; */
     background-color: burlywood;
 }
 
 nav {
     width: 490px;
-    padding: red 26px solid;
+    /* padding: red 26px solid;
     border: blue 8px solid;
-    margin: green 20px solid;
+    margin: green 20px solid; */
     display: flex;
     justify-content: space-around;
 }
 
 h1, h2, h3 {
     width: 490px;
-    padding: red 26px solid;
+    /* padding: red 26px solid;
     border: blue 8px solid;
-    margin: green 30px solid;
+    margin: green 30px solid; */
     color:slategrey;
 }
 
 .my-text {
     width: 490px;
-    padding: red 6px solid;
+    /* padding: red 6px solid;
     border: blue 8px solid;
-    margin: green 10px solid;
+    margin: green 10px solid; */
     text-align: left;
     width: 72%;
     text-size-adjust: 17pt;
     display: block;
 }
 
-#old-familiar {
+.old-familiar {
     width: 584px;
     image-rendering: unset;
-    padding: red 6px solid;
+    /* padding: red 6px solid;
     border: blue 8px solid;
-    margin: green 10px solid;
+    margin: green 10px solid; */
+}
+
+#top-of-index-page {
+    /* border: blue 8px solid; */
 }
