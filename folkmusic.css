@@ -14,14 +14,15 @@ body {
 
 nav {
     width: 490px;
-    height: 29px;
-    background-color: greenyellow;
+    height: 36px;
+/*     background-color: greenyellow; */
     text-size-adjust: 23pt;
     /* padding: red 26px solid;
     border: blue 8px solid;
     margin: green 20px solid; */
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 h1, h2, h3 {
