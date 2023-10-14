@@ -1,0 +1,11 @@
+* {
+    background-color: gray;
+}
+
+body {
+    width: 200px;
+    padding: red 4px solid;
+    border: green 6px solid;
+    margin: blue 8px solid;
+    background-color: yellow;
+}
