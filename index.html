@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="folkmusic.css" type="text/css">
+    <link rel = 'stylesheet' href = 'proofofconcept.css'>
+    /*   <link rel="stylesheet" href="folkmusic.css" type="text/css">   */
     <title>English Folk Music</title>
 </head>
 <body>
@@ -31,6 +32,33 @@
         <img src="pics/oldfamiliar-13256044jpg.jpg" alt="Old front page cover from Columbia Records includes one Gid Tanner playing the fiddle!">
     </div>
 
+
+<form id = 'contact-form' method = 'POST' action = 'sendmail.php'>
+  <div class = 'form-row form-error' style = 'display:none;'></div>
+  <div class = 'form-row'>
+    <label for = 'contact-form-name'>Name:</label>
+    <input id = 'contact-form-name' class = 'form-input' type = 'text' name = 'name' required >
+  </div>
+
+  <div class = 'form-row'>
+    <label for = 'contact-form-email'>Email:</label>
+    <input id = 'contact-form-email' class = 'form-input' type = 'email' name = 'email' required>
+  </div>
+
+  <div class = 'form-row'>
+    <label for = 'contact-form-phone'>Phone:</label>
+    <input id = 'contact-form-phone' class = 'form-input' type = 'tel' name = 'phone'>
+  </div>
+
+  <div class = 'form-row'>
+    <label for = 'contact-form-message'>Message:</label>
+    <textarea id = 'contact-form-message' class = 'form-input' name = 'message' required></textarea>
+  </div>
+  <button type = 'submit'>Sendup</button>
+</form>
+
+
+    
     <a href = '#top-of-index-page'>Click to return to top of home page</a>
     
 </body>
